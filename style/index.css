@@ -99,10 +99,159 @@
 .sapatos {
     display: flex;
     justify-content: center;
-    gap: 70px;
+    gap: 80px;
 }
 
 .sapato1 img {
-    width: 370px;
+    width: 390px;
     height: 400px;
+}
+
+.insta {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.botas {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 40px;
+
+}
+
+.sap img {
+    width: 500px;
+    height: 475px;
+}
+
+.store-roda {
+    background-color: black;
+    width: 100%;
+    height: 90px;
+    margin-top: 100px;
+}
+
+.store-roda img {
+    color: white;
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 35px;
+
+}
+
+.branco {
+    background-color: white;
+    height: 1px;
+}
+
+.rodape {
+    background-color: black;
+    width: 100%;
+    display: flex;
+}
+
+.institucional {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    gap: 10px;
+    padding-top: 30px;
+}
+
+.ajuda {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    gap: 8px;
+    padding-top: 30px;
+}
+
+
+.cr{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    gap: 8px;
+    padding-top: 30px;
+    
+}
+
+
+.rodape-direito {
+    display: flex;
+    padding-left: 40%;
+}
+
+
+
+.menu-pesquisa img {
+    padding: 10px;
+    height: 22px;
+    width: 22px;
+}
+
+.rodape-direito h1 {
+    color: white;
+}
+
+.social {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    margin-left: 55%;
+    padding: 25px 0;
+}
+
+.rede-sociais {
+    display: flex;
+    gap: 12px;
+}
+
+.social p {
+    color: white;
+    font-size: 20px;
+
+}
+
+.icones-sociais {
+    display: flex;
+    gap: 25px;
+
+}
+
+.social img {
+    width: 35px;
+    height: 35px;   
+    padding: 10px;
+    
+}
+
+
+
+
+.final {
+    background-color: black;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    color: #bfbfbf; 
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+}
+
+.linha-branca {
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.texto-final {
+    margin: 0;
 }

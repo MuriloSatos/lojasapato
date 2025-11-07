@@ -63,11 +63,46 @@
     display: flex;
     color: white;
     align-items: center;
-    
+
 }
+
 .menu-login img,
-.menu-pesquisa img{
+.menu-pesquisa img {
     padding: 10px;
     height: 22px;
     width: 22px;
+}
+
+
+.img-1 img {
+    width: 100%;
+}
+
+.imagens {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.um {
+    width: 600px;
+    height: 500px;
+}
+
+.novidade {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.sapatos {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.sapato1 img {
+    width: 370px;
+    height: 400px;
 }

@@ -1,0 +1,95 @@
+* {
+        margin-bottom: 0px;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        font-family: "Bebas Neue", sans-serif;
+
+    }
+
+.menu {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.section-menu {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    height: 80px;
+
+}
+
+.section-menu img {
+    height: 30px;
+    margin-left: 20px;
+
+}
+
+
+
+.menu {
+    display: flex;
+    gap: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-left: 200px;
+    
+
+}
+
+
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+.sale {
+    color: red;
+}
+
+.menu p {
+    margin: 0;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+
+.menu p:hover {
+    color: white;
+}
+
+.direito {
+    display: flex;
+    padding-left: 40%;
+}
+
+.menu-login,
+.menu-pesquisa {
+    display: flex;
+    color: white;
+    align-items: center;
+
+}
+
+.menu-login img,
+.menu-pesquisa img {
+    padding: 10px;
+    height: 22px;
+    width: 22px;
+}
+
+.img-1 img{
+    margin-left: 50px;
+    width: 95%;
+    height: 290px;
+    margin-top: 30px;
+}
+.img-1 p{
+    color: gray;
+    margin-left: 50px;
+    margin-top: 10px;
+}

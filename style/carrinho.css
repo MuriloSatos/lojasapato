@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.menu-topo {
+    width: 100%;
+    height: 80px;
+    background-color: #000000;
+}
+
+#store {
+    width: 100px;
+    height: auto;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+
+.menu {
+    display: flex;
+    gap: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-top: -30px;
+    /* align-items: center; */
+    margin-left: 15%;
+
+}
+
+.menu p {
+    margin: 0;
+    cursor: pointer;
+}
+
+.menu p:hover {
+    color: white;
+}
+
+.red {
+    color: red;
+}
+
+.lupa {
+    width: 20px;
+    height: 20px;
+    margin-left: 34%
+}
+
+.user {
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+
+.carinho {
+    width: 30px;
+    height: 30px;
+    margin-left: 40px;
+    margin-top: -10px;
+
+}
+
+.carinho2 {
+    margin-left: 40px;
+    margin-top: 25px;
+}
+
+.layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 50px;
+}
+
+.tenis {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.tenis h4 {
+    color: gray;
+}
+
+.tenis img {
+    width: 150px;
+    border: 1px solid gray;
+
+}
+
+.quantidade {
+    display: flex;
+    gap: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    align-items: center;
+}
+
+.quantidade img {
+    height: 8px;
+    width: 15px;
+}
+
+.preco-tenis h4 {
+    color: gray;
+    text-decoration: line-through;
+
+}
+
+hr {
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 50px;
+}
+
+
+.valor{
+margin-top: 30px;
+margin-left: 75%;
+font-size: 20px;
+justify-items: center;
+}
+.comprar{
+    width: 300px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.store-roda {
+    background-color: black;
+    width: 100%;
+    height: 90px;
+    margin-top: 50px;
+}
+
+.store-roda img {
+    color: white;
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 35px;
+
+}
+
+.branco {
+    background-color: rgb(160, 157, 157);;
+    height: 1px;
+}
+
+.rodape {
+    background-color: black;
+    width: 100%;
+    display: flex;
+}
+
+.institucional {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    gap: 10px;
+    padding-top: 30px;
+}
+
+.ajuda p , .Políticas p, .institucional p, .cr p {
+    cursor: pointer;
+    color: rgb(160, 157, 157);
+}
+
+.ajuda, .Políticas {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    gap: 8px;
+    padding-top: 30px;
+}
+
+.cr{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    gap: 8px;
+    padding-top: 30px;
+    width: 100%;
+    
+}
+.cr h1, .institucional h1, .ajuda h1, .Políticas h1 {
+  font-size: 26px;
+}
+
+.menu-pesquisa img {
+    padding: 10px;
+    height: 22px;
+    width: 22px;
+}
+
+
+
+.social {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    margin-left: 40%;
+    padding: 25px 0;
+}
+
+.rede-sociais {
+    display: flex;
+    gap: 12px;
+}
+
+.social p {
+    color: white;
+    font-size: 20px;
+
+}
+
+.icones-sociais {
+    display: flex;
+    gap: 25px;
+
+}
+
+.social img {
+    width: 35px;
+    height: 35px;   
+    padding: 10px;
+    
+}
+
+
+
+
+.final {
+    background-color: black;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    color: rgb(160, 157, 157); 
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+}
+
+.linha-branca {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(160, 157, 157);
+    margin-bottom: 10px;
+}
+
+.texto-final {
+    margin: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}

@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+
+
+#store {
+    margin-right: 5%;
+    width: 10%;
+    height: auto;
+}
+
+#sale {
+    color: red;
+}
+
+.container-header p {
+    color: white;
+    font-size: 1.2vw;
+}
+
+.header {
+    background-color: black;
+    display: flex;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    align-items: center;
+    text-align: center;
+    padding-left: 5%;
+}
+
+#tools {
+    display: flex;
+    gap: 3%;
+    padding-left: 5%;
+    width: 100%;
+
+}
+
+#tools a {
+    text-decoration: none;
+    list-style: none;
+}
+
+#itens-header {
+    margin-right: 6%;
+    display: flex;
+    gap: 90%;
+    align-items: center;
+    text-align: center;
+}
+
+#card {
+    margin-left: 6%;
+    width: 1.5%;
+    height: auto;
+    margin-right: 5%;
+}
+
+#user,
+#lupa {
+    display: flex;
+    gap: 30%;
+}
+
+#user :hover {
+    color: red;
+    transition: 0.3s;
+}
+
+#lupa img,
+#user img {
+    width: 50%;
+    height: auto;
+}
+
+#store {
+    margin-left: 5%;
+    width: 7%;
+    height: auto;
+}
+
+
+.conteiner-body {
+    display: flex;
+    margin-right: 20%;
+    justify-content: center;
+    margin-top: 5%;
+    gap: 25%;
+}
+
+.conteiner-body p {
+    font-size: 1.2vw;
+}
+
+.login h1 {
+    font-size: 2vw;
+    text-align: end;
+    margin-bottom: 20%;
+}
+
+.register h1 {
+    font-size: 2vw;
+    text-align: end;
+    margin-bottom: 20%;
+}
+
+.login p {
+    padding-top: 10%;
+}
+
+.register p {
+    padding-top: 10%;
+}
+
+input {
+    font-size: 1.2vw;
+}
+
+input {
+    padding: 7%;
+    width: 200%;
+    border: 1px solid gray;
+}
+
+
+input::placeholder {
+    font-size: 1.2vw;
+}
+
+#forget,
+a {
+    text-decoration: none;
+    list-style: none;
+    color: gray;
+}
+
+button {
+    margin-top: 15%;
+    width: 215%;
+    height: auto;
+    font-size: 1.5vw;
+    color: white;
+    background-color: black;
+    padding: 2%;
+    border: 2px solid black;
+}
+
+button:hover {
+    transition: 0.3s;
+    color: black;
+    background-color: gray;
+    border-color: gray;
+}
+
+footer {
+    margin-top: 10%;
+}
+
+.conteiner-insta {
+    display: flex;
+    justify-content: center;
+}
+
+.conteiner-insta img {
+    width: 25%;
+    margin-left: 1%;
+}
+
+#insta {
+    margin-bottom: 4%;
+}
+
+#insta h3 {
+    margin-top: 7%;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+.footer {
+    background-color: black;
+}
+
+.img-store img {
+    margin-top: 1.4%;
+    margin-left: 1.4%;
+    margin-bottom: 1.4%;
+}
+
+#store {
+    margin-left: 5%;
+    width: 7%;
+    height: auto;
+}
+
+#line1 {
+    width: 100px;
+    background-color: gray;
+}
+
+.footer-infos {
+    display: flex;
+    gap: 2%;
+    margin-left: 5%;
+}
+
+.infos h2,
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.infos {
+    margin-top: 2%;
+    text-align: start;
+    align-items: center;
+}
+
+.infos h2 {
+    font-size: 1.5vw;
+}
+
+.infos p {
+    font-size: 1vw;
+    color: gray;
+}
+
+.infos li,
+h2 {
+    margin-left: 5%;
+}
+
+.networks h2 {
+    /* /* width: 100%;
+    padding-left: 50%; */
+    margin-bottom: 5%;
+    font-size: 1.5vw;
+}
+
+.networks img {
+    width: 8%;
+    margin-left: 3%;
+}
+
+.networks {
+    width: 100%;
+    padding-top: 5%;
+    margin-left: 50%;
+    margin-top: 2%;
+    align-items: center;
+    text-align: center;
+}
+
+.after-footer {
+    align-items: center;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.after-footer p {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: gray;
+    font-size: 1vw;
+}
